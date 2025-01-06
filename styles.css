@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+#gitimg {
+    height: 25px;
+    width: 25px;
+}
+
+#playpause {
+    height: 25px;
+    width: 25px;
+}
+
+#volume {
+    height:25px;
+    width:25px;
+}

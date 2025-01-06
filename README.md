@@ -16,3 +16,11 @@ webpage with HTML and CSS. Planned functionality includes:
 - Support for multiple note durations
 - Light/Dark mode
 - Support for multiple Time Signatures
+
+*Initial Thoughts*
+
+For the basic functionality I am thinking of utilizing a while loop.
+While the loop is running, code running at a time interval controlled by
+a variable representing the bpm will play audio (the click). While loop
+can be controlled by a button. I could also use this to have some kind of 
+timed animation that represents the current bpm.
