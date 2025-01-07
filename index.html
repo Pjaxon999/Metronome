@@ -6,33 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metronome</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="./scripts.js" defer></script>
 </head>
 
 <body>
 <h1>Welcome to the Metronome Zone</h1>
 
-<div class="animationContainer">
-
-</div>
-
-<div class="metronomeButtons">
-<button class="beats">1</button>
-<button class="beats">2</button>
-<button class="beats">3</button>
-<button class="beats">4</button>
+<div class="screen">
+    <div class="vertical"></div>
+    <div class="animationContainer"></div>
 </div>
 
 <div class="controls">
+
+    <div class="beatBtns">
+    <button class="beats">1</button>
+    <button class="beats">2</button>
+    <button class="beats">3</button>
+    <button class="beats">4</button>
+    </div>
 
     <div class="slidecontainer">
     <input type="range" min="40" max="300" value="100" class="slider" id="myRange">
     </div>
 
-<button><img id="playpause" src="./assets/images/player-play-pause-svgrepo-com.svg"></button>
-<button><img id="volume" src="./assets/images/volume-2-svgrepo-com.svg"></button>
-
-
+    <div class="audioBtns">
+    <button><img id="playpause" src="./assets/images/play-pause-svgrepo-com.svg"></button>
+    <button><img id="volume" src="./assets/images/volume-low-svgrepo-com.svg"></button>
+    </div>
+    
 </div>
 
 </body>
