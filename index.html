@@ -22,13 +22,13 @@
 
 <div class="controls">
 
-    <div class="beat-btns">
-    <button class="beats"><span class="quarter" id="beat-one">Quarter</span></button>
-    <button class="beats"><span class="eighth" id="beat-two">Eighth</span></button>
-    <button class="beats"><span class="triplet" id="beat-three">Triplet</span></button>
-    <button class="beats"><span class="sixteenth" id="beat-four">Sixteenth</span></button>
+    <div class="beats-container">
+    <span class="beats" id="beat-one">1</span>
+    <span class="beats" id="beat-two">2</span>
+    <span class="beats" id="beat-three">3</span>
+    <span class="beats" id="beat-four">4</span>
     </div>
-
+    
     <div class="slide-container">
     <p>Current BPM: <span id="bpm">100</span></p>
     <input type="range" min="40" max="300" value="100" class="slider" id="BPMSlider">
@@ -37,6 +37,18 @@
     <div class="audio-btns">
     <button><img id="playpause" src="./assets/images/play-pause-svgrepo-com.svg"></button>
     <button><img id="volume" src="./assets/images/volume-low-svgrepo-com.svg"></button>
+    
+    <div class="dropdown">
+        
+    <button class="dropbtn" id="subdivision-selector">Quarter Notes</button>
+    <div class="dropdown-content">
+        <button>Eighth Notes</button>
+        <button>Sixteenth Notes</button>
+        <button>Triplets</button>
+    </div>
+
+    </div>
+
     </div>
 
 </div>
