@@ -17,23 +17,24 @@
 
 <div class="screen">
     <div class="vertical"></div>
-    <div class="animationContainer"></div>
+    <div class="animation-container"></div>
 </div>
 
 <div class="controls">
 
-    <div class="beatBtns">
-    <button class="beats">1</button>
-    <button class="beats">2</button>
-    <button class="beats">3</button>
-    <button class="beats">4</button>
+    <div class="beat-btns">
+    <button class="beats"><span class="quarter" id="beat-one">Quarter</span></button>
+    <button class="beats"><span class="eighth" id="beat-two">Eighth</span></button>
+    <button class="beats"><span class="triplet" id="beat-three">Triplet</span></button>
+    <button class="beats"><span class="sixteenth" id="beat-four">Sixteenth</span></button>
     </div>
 
-    <div class="slidecontainer">
-    <input type="range" min="40" max="300" value="100" class="slider" id="myRange">
+    <div class="slide-container">
+    <p>Current BPM: <span id="bpm">100</span></p>
+    <input type="range" min="40" max="300" value="100" class="slider" id="BPMSlider">
     </div>
 
-    <div class="audioBtns">
+    <div class="audio-btns">
     <button><img id="playpause" src="./assets/images/play-pause-svgrepo-com.svg"></button>
     <button><img id="volume" src="./assets/images/volume-low-svgrepo-com.svg"></button>
     </div>
@@ -44,7 +45,6 @@
 
 <footer>
 <p>Made by Peter Jackson <a href="https://github.com/Pjaxon999/Metronome"><img id="gitimg" src="./assets/images/github-svgrepo-com.svg"></a></p>
-<a href="https://www.vecteezy.com/free-vector/music">Music Vectors by Vecteezy</a>
 </footer>
 
 </html>

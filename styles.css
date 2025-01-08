@@ -22,8 +22,12 @@ h1 {
     height: 110px;
     width: 210px;
     border: 5px solid black;
-    background: gray;
+    background-color: gray;
+    overflow: hidden;
+}
 
+.quarter, .eighth, .sixteenth, .triplet, .rest {
+    background-color: white;
 }
 
 .vertical {
@@ -35,29 +39,33 @@ h1 {
     height: 100px;
 }
 
-.animationContainer {
+.animation-container {
     position: absolute;
     width: 100px;
     height: 100px;
     border-radius: 75%;
     background-color: black;
     position: relative;
-    animation: visualMetronome linear infinite alternate;
+    animation: visual-metronome linear infinite alternate;
     animation-duration: 0.6s;
 }
 
 .controls {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    height: 100px;
-    width: 210px;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 350px;
     background-color: powderblue;
 }
 
-@keyframes visualMetronome {
-    0% {left: 0px}
-    100% {left: 100px}
+.slide-container {
+    display:flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 #gitimg {
@@ -74,3 +82,9 @@ h1 {
     height:25px;
     width:25px;
 }
+
+@keyframes visual-metronome {
+    0% {left: 0px}
+    100% {left: 100px}
+}
+
