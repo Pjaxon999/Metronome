@@ -42,7 +42,7 @@ h1 {
     height: 100px;
 }
 
-.animation-container {
+#animation-container {
     position: absolute;
     top: 25px;
     width: 50px;
@@ -132,4 +132,3 @@ h1 {
     0% {left: 0px}
     100% {left: 150px}
 }
-
