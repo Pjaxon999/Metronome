@@ -1,9 +1,4 @@
 *** PROJECT SUSPENDED ****
-Because Peter sucks at coding, he has decided to stop wasting his
-time pretending that he can do anything that isn't extremely basic
-that a toddler can do and abandon this project until he feels like 
-he might be able to do something which at his current rate of learning
-may be sometime in the next few decades. Let's all wish him luck!
 
 # Metronome
 A tool used by musicians to keep time!
